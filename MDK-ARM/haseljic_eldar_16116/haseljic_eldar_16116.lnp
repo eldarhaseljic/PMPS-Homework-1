@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"haseljic_eldar_16116\startup_stm32f429xx.o"
+"haseljic_eldar_16116\main.o"
+"haseljic_eldar_16116\stm32f4xx_it.o"
+"haseljic_eldar_16116\stm32f4xx_hal_msp.o"
+"haseljic_eldar_16116\stm32f4xx_hal_tim.o"
+"haseljic_eldar_16116\stm32f4xx_hal_tim_ex.o"
+"haseljic_eldar_16116\stm32f4xx_hal_uart.o"
+"haseljic_eldar_16116\stm32f4xx_hal_rcc.o"
+"haseljic_eldar_16116\stm32f4xx_hal_rcc_ex.o"
+"haseljic_eldar_16116\stm32f4xx_hal_flash.o"
+"haseljic_eldar_16116\stm32f4xx_hal_flash_ex.o"
+"haseljic_eldar_16116\stm32f4xx_hal_flash_ramfunc.o"
+"haseljic_eldar_16116\stm32f4xx_hal_gpio.o"
+"haseljic_eldar_16116\stm32f4xx_hal_dma_ex.o"
+"haseljic_eldar_16116\stm32f4xx_hal_dma.o"
+"haseljic_eldar_16116\stm32f4xx_hal_pwr.o"
+"haseljic_eldar_16116\stm32f4xx_hal_pwr_ex.o"
+"haseljic_eldar_16116\stm32f4xx_hal_cortex.o"
+"haseljic_eldar_16116\stm32f4xx_hal.o"
+"haseljic_eldar_16116\stm32f4xx_hal_exti.o"
+"haseljic_eldar_16116\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "haseljic_eldar_16116\haseljic_eldar_16116.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "haseljic_eldar_16116.map" -o haseljic_eldar_16116\haseljic_eldar_16116.axf
